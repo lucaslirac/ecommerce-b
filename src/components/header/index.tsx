@@ -1,4 +1,6 @@
 
+import './style.css'
+
 
 function Header() {
     return (
@@ -12,7 +14,7 @@ function Header() {
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
-                <button type="button">Sigin</button>
+                <button type="button">Sign In</button>
             </nav>
         </div>
     )
