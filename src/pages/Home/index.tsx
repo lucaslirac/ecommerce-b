@@ -1,15 +1,18 @@
 import React from "react";
 import Header from "../../components/header";
+import Container from 'react-bootstrap/Container';
 
-function Home(){
-    return(
+function Home() {
+    return (
         <div className="App">
             <header>
                 <Header />
             </header>
-            <div>
-                <h1>Home</h1>
-            </div>
+            <main>
+                <Container>
+                    <h1>Lixo</h1>
+                </Container>
+            </main>
         </div>
     )
 }
