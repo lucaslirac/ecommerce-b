@@ -7,6 +7,9 @@ function Home(){
             <header>
                 <Header />
             </header>
+            <div>
+                <h1>Home</h1>
+            </div>
         </div>
     )
 }
