@@ -1,7 +1,7 @@
 .Hero{
   height: 10vh;
   width: 100%;
-  background-color: black;
+  background-color: gray;
 
 }
 
@@ -35,7 +35,7 @@ nav ul li a:hover{
   transition: .3s;
 }
 
-button{
+.header-button{
   border: none;
   background: #ea1538;
   padding: 12px 30px;
@@ -47,6 +47,6 @@ button{
   cursor: pointer;
 }
 
-button:hover{
+.header-button:hover{
   transform: scale(1.3);
 }
