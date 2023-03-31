@@ -1,8 +1,9 @@
 import React from "react";
-import './style.css'
 
+import * as C from "./style"
 function LoginForm() {
     return (
+        <C.Container>
         <div className="container">
             <div className="container-login">
                 <div className="wrap-login">
@@ -43,6 +44,7 @@ function LoginForm() {
                 </div>
             </div>
         </div>
+        </C.Container>
     )
 }
 
