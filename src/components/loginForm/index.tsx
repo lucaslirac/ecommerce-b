@@ -15,6 +15,7 @@ function LoginForm() {
                             <input
                                 type="email"
                                 placeholder="Email"
+                                autoComplete="off"
                             />
                             <span className="focus-input" ></span>
                         </div>
@@ -23,6 +24,7 @@ function LoginForm() {
                             <input
                                 type="password"
                                 placeholder="Senha"
+                                autoComplete="off"
                             />
                             <span className="focus-input"></span>
                         </div>
