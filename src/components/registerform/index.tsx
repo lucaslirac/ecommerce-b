@@ -34,7 +34,7 @@ function RegisterForm() {
                         </div>
 
                         <div className="container-login-form-btn">
-                            <button className="login-form-btn">Register</button>
+                            <button className="login-form-btn"onClick={() => navigate("/")}>Register</button>
                         </div>
 
                         <div className="text-center">
